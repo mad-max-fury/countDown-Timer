@@ -1,5 +1,5 @@
 let display = document.querySelector(".wrap");
-var countDownDay = new Date("Jan 20, 2022  14:55:00").getTime();
+var countDownDay = new Date("Dec 20, 2021  14:55:00").getTime();
 showDate = () => {
   var currentDay = new Date().getTime();
   var range = countDownDay - currentDay;
